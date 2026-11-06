@@ -30,7 +30,7 @@ jobs:
       - name: Extract Android project
         run: |
           mkdir -p source
-          unzip -o IceLiveWallpaper_clean_repository.zip -d source
+          unzip -o IceLiveWallpaper_clean_repository_fixed.zip -d source
 
       - name: Build APK
         run: |
